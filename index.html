@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Simple Memory Game</h1>
+  <label id="inputLabel" for="numButtons"></label>
+  <input type="number" id="numButtons" min="3" max="7">
+  <button id="goBtn">Go</button>
+
+  <div id="message"></div>
+  <div id="gameArea"></div>
+
+  <!-- Messages -->
+  <script src="lang/messages/en/user.js"></script>
+
+  <!-- Classes -->
+  <script src="js/MemoryButton.js"></script>
+  <script src="js/UIManager.js"></script>
+  <script src="js/Game.js"></script>
+
+  <!-- Main -->
+  <script src="js/script.js"></script>
+</body>
+</html>
